@@ -7,7 +7,9 @@
 2. 安裝 sass
 3. 安裝 Bootstrap
 
-   This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- 建立 admin login
+- 管理員登入後取得產品列表
+  This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
