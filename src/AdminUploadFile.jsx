@@ -56,8 +56,8 @@ const AdminUploadFile = () => {
 
   return (
     <>
-      <h1>admin Upload File</h1>
-      <h2>
+      <h2>admin Upload File</h2>
+      <h3>
         <input
           type='file'
           ref={fileInputRef}
@@ -66,7 +66,7 @@ const AdminUploadFile = () => {
           onChange={handleFileChange}
           placeholder='upload file'
         />
-      </h2>
+      </h3>
       {/* 預覽區域 */}
       {preview && (
         <div className='mb-3'>
