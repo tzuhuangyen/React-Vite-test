@@ -9,6 +9,8 @@
 
 - 建立 admin login
 - 管理員登入後取得產品列表
+- 管理員產品新增 編輯 刪除 api
+
   This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
