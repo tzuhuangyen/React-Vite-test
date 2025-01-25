@@ -26,7 +26,7 @@ const LoginPage = ({ getAdminProducts, setIsAuth }) => {
 
         if (response.data.success) {
           setIsAuth(true);
-          getAdminProducts(); // 驗證成功後獲取產品
+          await getAdminProducts(); // 驗證成功後獲取產品
           console.log('驗證成功：', response);
         }
       } catch (error) {
